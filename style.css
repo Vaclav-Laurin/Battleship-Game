@@ -1,0 +1,67 @@
+#board {
+    background: url("/img/board.jpg") no-repeat center center;
+    background-size: cover;
+    margin-left: 20%;
+    position: absolute;
+    height: 863px;
+    width: 1024px;
+}
+
+#messageArea {
+    color: rgb(83, 175, 19);
+    font-family: "Allerta Stencil";
+    font-size: 35px;
+    text-align: center;
+    position: absolute;
+    right: 0px;
+    top: 325px;
+    width: 350px;
+}
+
+.hit {
+    background: url("/img/ship.png") no-repeat center center;
+}
+
+.miss {
+    background: url("/img/miss.png") no-repeat center center;
+}
+
+body {
+    background-color: black;
+
+}
+
+form {
+    position: absolute;
+    display: flex;
+    top: 500px;
+    right: 0px;
+    width: 350px;
+    padding: 15px;
+    gap: 15px;
+    background-color: rgb(83, 175, 19);
+}
+
+form input {
+    background-color: rgb(152, 207, 13);
+    border-color: rgb(83, 175, 19);
+    font-family: "Allerta Stencil";
+    font-size: 1.75rem;
+    padding: 2%;
+    width: 50%;
+}
+
+html {
+    font-size: 100%;
+}
+
+table {
+    position: absolute;
+    left: 173px;
+    top: 98px;
+}
+
+td {
+    height: 94px;
+    width: 94px;
+}
